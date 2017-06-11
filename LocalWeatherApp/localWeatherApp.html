@@ -1,0 +1,30 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1 class="text-center title-text">Local Weather</h1>
+  
+  <div id="weather-data">
+    <p id="location" class="text-center"></p>
+    <p class="text-center">
+      Temperature: <span id="temperature"></span> <span id="unit" title="Click to toggle between Farenheit and Celsius">&#176;F</span>
+    </p>
+    <p id="summary" class="text-center"></p>
+  </div>
+  
+  <canvas id="weather-icon" width="128" height="128"></canvas>
+  
+  <footer>
+    <a href="https://darksky.net/poweredby/" target="_blank">Powered by Dark Sky</a>
+  </footer>
+  
+</body>
+
+<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
