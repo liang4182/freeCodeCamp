@@ -1,0 +1,25 @@
+body {
+  margin-top: 50px;
+}
+
+.title-text {
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.quote-box {
+  font-family: serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 50px;
+}
+
+.center-inline {
+  display: inline;
+  margin-left: 560px;
+  margin-right: auto;
+}
+
