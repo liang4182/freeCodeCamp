@@ -1,0 +1,29 @@
+h1 {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.search-box {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.random-article {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.search-results {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p {
+  margin-bottom: 40px;
+}
