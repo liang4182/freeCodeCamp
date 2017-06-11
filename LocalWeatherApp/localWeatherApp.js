@@ -3,7 +3,9 @@ $(document).ready(function(){
   //get geolocation data from browser
   if(navigator.geolocation){
   navigator.geolocation.getCurrentPosition(function(position){
-    var weatherURL = "https://api.darksky.net/forecast/d98d09e0490c34868089682654a5d268/" + position.coords.latitude + "," + position.coords.longitude + "?exclude=minutely,hourly,daily,alerts,flags";
+    
+    //Replace the [key] with API key from Dark sky app 
+    var weatherURL = "https://api.darksky.net/forecast/[key]/" + position.coords.latitude + "," + position.coords.longitude + "?exclude=minutely,hourly,daily,alerts,flags";
     
     //Cross-origin request header
     var crossOriginURL = "https://cors-anywhere.herokuapp.com/";
