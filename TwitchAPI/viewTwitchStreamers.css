@@ -1,0 +1,22 @@
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.name {
+  padding-top: 40px;
+  padding-right: 70px;
+}
+
+.status {
+  padding-top: 40px;
+  padding-right: 200px;
+}
